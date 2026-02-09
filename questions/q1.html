@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: jennie simonson
+EMAIL: jennie.simonson2@gmail.com
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Jennie Simonson">
+  <meta name="description" content="home page of vday project">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../js/fishData.js"></script>
+   <!-- you would also link to Bootstrap here! -->
+  <title>gunnar</title>
+</head>
+
+<body data-correct = 'a' data-fish = "angelfish">
+
+  <nav class="navbar">
+    <div id="restart">
+        <button id="start-over">start over</button>
+        <button onclick="saveCurrentQuestion(); window.location.href='../tank/fish_tank.html';">view fish</button>
+    </div>  
+  </nav>
+  <div class="question_box">
+    <h1>question 1</h1>
+    <p>content of question 1</p>
+    <button data-answer="a" onclick="window.location.href='q2.html';">option 1</button>
+    <button data-answer="b">option 2</button>
+    <button data-answer="c">option 3</button>
+    <button data-answer="d">option 4</button>
+    <!-- <ul>
+        <li><a href="q2.html">option 1</a></li>
+        <li><a>option 2</a></li>
+        <li><a>option 3</a></li>
+        <li><a>option 4</a></li>
+    </ul> -->
+  </div>
+  <div class="catch">
+    <h1>catchable fish</h1>
+    <img width="500" height="500" src="..\resources\angelfish.svg"></img>
+  </div>
+  <script src="../js/app.js" defer></script>
+</body>
+</html>
