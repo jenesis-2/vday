@@ -4,7 +4,7 @@ const FISH = [
     {id: "angelfish", name:"angelfish", img: "../resources/angelfish.svg"}, 
     {id: "betta", name:"betta", img: "../resources/betta.svg"}, 
     {id: "chichlid", name:"chichlid", img: "../resources/chichlid.svg"},
-    {id: "gourami", name: "gourami", img: "../resources/chichlid.svg"},
+    {id: "gourami", name: "gourami", img: "../resources/gourami.svg"},
     {id: "gunnar", name: "gunnar",img: "../resources/gunnar.svg"},
     {id: "jennie", name: "jennie",img: "../resources/jennie.svg"},
     {id: "koi", name: "koi",img: "../resources/koi.svg"},
